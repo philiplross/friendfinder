@@ -1,5 +1,5 @@
 require("/data/friends.js");
-
+module.exports= function(app){
 app.get("/", function(req, res) {
     // res.send("Welcome to the Star Wars Page!")
     res.sendFile(path.join(__dirname, "survey.html"));
@@ -22,7 +22,7 @@ app.get("/", function(req, res) {
     }
   
     return res.json(false);
-  });
+  })};
 
 
   

@@ -1,9 +1,8 @@
-$.ajax({
-    url: queryURL,
-    method: "GET"
-  })
+// $.ajax({
+//     url: queryURL,
+//     method: "GET"
+//   })
 
-  .then(function(response,req) {
-    var results = response.data});
+//   .then(function(response,req) {
+//     var results = response.data});
 
-    
